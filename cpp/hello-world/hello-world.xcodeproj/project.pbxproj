@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		13C217A67D214199B5B1522F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 97BECDE80C6B4EFCAA8C625C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1D0896C6952646748FC96248 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		3DBCADAA2BF743E8987461AC /* test_hello-world */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3D199B55CA4D4A5888545FCA /* Build configuration list for PBXAggregateTarget "test_hello-world" */;
+			buildPhases = (
+				BDEC768A046B42F590D301EA /* CMake Rules */,
+			);
+			dependencies = (
+				585C4A19A48C40CC914D579D /* PBXTargetDependency */,
+				E331DB925A274D3DBA313A98 /* PBXTargetDependency */,
+			);
+			name = "test_hello-world";
+			productName = "test_hello-world";
+		};
+		A39457C4BA974A8F95CF8DD1 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 742E3011BE664BB7A5C659EE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				37ECB2089D4C4DDFA9DF3262 /* CMake Rules */,
+			);
+			dependencies = (
+				B77F4BCA11E84BD2B4016032 /* PBXTargetDependency */,
+				E599FE9025E14E2089E2009D /* PBXTargetDependency */,
+				914664E0204E45DC9005C2EB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		38D08F8912704682B11BDDAE /* /Users/puugru/Exercism/cpp/hello-world/hello_world_test.cpp */ = {isa = PBXBuildFile; fileRef = 0002B08AB706413A8688F01B /* /Users/puugru/Exercism/cpp/hello-world/hello_world_test.cpp */; };
+		67B25D4309D945C3BEDD9831 /* /Users/puugru/Exercism/cpp/hello-world/hello_world.h */ = {isa = PBXBuildFile; fileRef = AA0D86A9329E46639E60D16A /* /Users/puugru/Exercism/cpp/hello-world/hello_world.h */; };
+		B5C6AC8D5A5048B7A2B9BFD6 /* /Users/puugru/Exercism/cpp/hello-world/hello_world.cpp */ = {isa = PBXBuildFile; fileRef = 9E5AE225DAFE4B9A8ACE229E /* /Users/puugru/Exercism/cpp/hello-world/hello_world.cpp */; };
+		F7312390E2AB48DB9F2ECF09 /* /Users/puugru/Exercism/cpp/hello-world/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4044D6CB08094E48BA1CC703 /* /Users/puugru/Exercism/cpp/hello-world/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0B8013B84F054F0C8917CFD7 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		AFF4905868894252917AECFA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		DB9D4BD791DB452393AC415D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FEB2F95AF76F47589005E7F0 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		07324A76055948F9B0887C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB3D3DBDA6445A789552467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DBCADAA2BF743E8987461AC;
+			remoteInfo = "test_hello-world";
+		};
+		246D036994464498B19D1C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB3D3DBDA6445A789552467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C217A67D214199B5B1522F;
+			remoteInfo = ZERO_CHECK;
+		};
+		310F156BB7C4465AA2E25A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB3D3DBDA6445A789552467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C217A67D214199B5B1522F;
+			remoteInfo = ZERO_CHECK;
+		};
+		4C51D99D97AB4642B0B51FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB3D3DBDA6445A789552467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787DFB97A74447BAAFB7DC4B;
+			remoteInfo = "hello-world";
+		};
+		66447BFF52CD4F32843B9BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB3D3DBDA6445A789552467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C217A67D214199B5B1522F;
+			remoteInfo = ZERO_CHECK;
+		};
+		A7A364EF59334D2DAE814708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB3D3DBDA6445A789552467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787DFB97A74447BAAFB7DC4B;
+			remoteInfo = "hello-world";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0002B08AB706413A8688F01B /* /Users/puugru/Exercism/cpp/hello-world/hello_world_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello_world_test.cpp; path = hello_world_test.cpp; sourceTree = SOURCE_ROOT; };
+		35907EB0B7984513841EC899 /* /Users/puugru/Exercism/cpp/hello-world/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3D4D44533D1D4CB7A05AC4F0 /* hello-world */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "hello-world"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4044D6CB08094E48BA1CC703 /* /Users/puugru/Exercism/cpp/hello-world/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9E5AE225DAFE4B9A8ACE229E /* /Users/puugru/Exercism/cpp/hello-world/hello_world.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello_world.cpp; path = hello_world.cpp; sourceTree = SOURCE_ROOT; };
+		AA0D86A9329E46639E60D16A /* /Users/puugru/Exercism/cpp/hello-world/hello_world.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hello_world.h; path = hello_world.h; sourceTree = SOURCE_ROOT; };
+		AE4168D3BB9E4C1286F52E74 /* /Users/puugru/Exercism/cpp/hello-world/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F6CA7F5FC564FEB9B7951E8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA0D86A9329E46639E60D16A /* /Users/puugru/Exercism/cpp/hello-world/hello_world.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		1E6A684E66BB44FB900043EF /* hello-world */ = {
+			isa = PBXGroup;
+			children = (
+				DF855661310B45F88BD74D00 /* Source Files */,
+				0F6CA7F5FC564FEB9B7951E8 /* Header Files */,
+				4044D6CB08094E48BA1CC703 /* /Users/puugru/Exercism/cpp/hello-world/CMakeLists.txt */,
+			);
+			name = "hello-world";
+			sourceTree = "<group>";
+		};
+		206B25E8A83D43309AF074FA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2BF3808475904DDEAC982A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4D44533D1D4CB7A05AC4F0 /* hello-world */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BD02467B5144FDB2407FC5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7914BBA6EFDF41799FC2F3C4 = {
+			isa = PBXGroup;
+			children = (
+				AE03FDC5F5D345FE9D145CB8 /* test_hello-world */,
+				1E6A684E66BB44FB900043EF /* hello-world */,
+				B16C6185A4EE4343AE5AB6C7 /* ALL_BUILD */,
+				2BF3808475904DDEAC982A8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE03FDC5F5D345FE9D145CB8 /* test_hello-world */ = {
+			isa = PBXGroup;
+			children = (
+				32BD02467B5144FDB2407FC5 /* CMake Rules */,
+				AE4168D3BB9E4C1286F52E74 /* /Users/puugru/Exercism/cpp/hello-world/CMakeLists.txt */,
+			);
+			name = "test_hello-world";
+			sourceTree = "<group>";
+		};
+		B16C6185A4EE4343AE5AB6C7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				206B25E8A83D43309AF074FA /* CMake Rules */,
+				35907EB0B7984513841EC899 /* /Users/puugru/Exercism/cpp/hello-world/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DF855661310B45F88BD74D00 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E5AE225DAFE4B9A8ACE229E /* /Users/puugru/Exercism/cpp/hello-world/hello_world.cpp */,
+				0002B08AB706413A8688F01B /* /Users/puugru/Exercism/cpp/hello-world/hello_world_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		787DFB97A74447BAAFB7DC4B /* hello-world */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAF1CF989D94EC78CF91279 /* Build configuration list for PBXNativeTarget "hello-world" */;
+			buildPhases = (
+				0D5CE9B495ED4AE0A323A5E7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF660D875FA487A9AB1F2D3 /* PBXTargetDependency */,
+			);
+			name = "hello-world";
+			productName = "hello-world";
+			productReference = 3D4D44533D1D4CB7A05AC4F0 /* hello-world */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EB3D3DBDA6445A789552467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0800;
+			};
+			buildConfigurationList = D0F998363B57424F82C66B70 /* Build configuration list for PBXProject "hello-world" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				DB9D4BD791DB452393AC415D /* Debug */,
+				AFF4905868894252917AECFA /* Release */,
+				0B8013B84F054F0C8917CFD7 /* MinSizeRel */,
+				FEB2F95AF76F47589005E7F0 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7914BBA6EFDF41799FC2F3C4;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				A39457C4BA974A8F95CF8DD1 /* ALL_BUILD */,
+				13C217A67D214199B5B1522F /* ZERO_CHECK */,
+				787DFB97A74447BAAFB7DC4B /* hello-world */,
+				3DBCADAA2BF743E8987461AC /* test_hello-world */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		041A35936DCD430D9C47C00B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1D0896C6952646748FC96248 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/puugru/Exercism/cpp/hello-world -f /Users/puugru/Exercism/cpp/hello-world/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		37ECB2089D4C4DDFA9DF3262 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/puugru/Exercism/cpp/hello-world -f /Users/puugru/Exercism/cpp/hello-world/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		3CCB0B53F2D6407798EA402C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BDEC768A046B42F590D301EA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/puugru/Exercism/cpp/hello-world -f /Users/puugru/Exercism/cpp/hello-world/CMakeScripts/test_hello-world_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C819D05EE4824D6684FDD06B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D5CE9B495ED4AE0A323A5E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C6AC8D5A5048B7A2B9BFD6 /* /Users/puugru/Exercism/cpp/hello-world/hello_world.cpp */,
+				38D08F8912704682B11BDDAE /* /Users/puugru/Exercism/cpp/hello-world/hello_world_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF660D875FA487A9AB1F2D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13C217A67D214199B5B1522F /* ZERO_CHECK */;
+			targetProxy = 310F156BB7C4465AA2E25A60 /* PBXContainerItemProxy */;
+		};
+		585C4A19A48C40CC914D579D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787DFB97A74447BAAFB7DC4B /* hello-world */;
+			targetProxy = A7A364EF59334D2DAE814708 /* PBXContainerItemProxy */;
+		};
+		914664E0204E45DC9005C2EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13C217A67D214199B5B1522F /* ZERO_CHECK */;
+			targetProxy = 66447BFF52CD4F32843B9BB1 /* PBXContainerItemProxy */;
+		};
+		B77F4BCA11E84BD2B4016032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DBCADAA2BF743E8987461AC /* test_hello-world */;
+			targetProxy = 07324A76055948F9B0887C4A /* PBXContainerItemProxy */;
+		};
+		E331DB925A274D3DBA313A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13C217A67D214199B5B1522F /* ZERO_CHECK */;
+			targetProxy = 246D036994464498B19D1C11 /* PBXContainerItemProxy */;
+		};
+		E599FE9025E14E2089E2009D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787DFB97A74447BAAFB7DC4B /* hello-world */;
+			targetProxy = 4C51D99D97AB4642B0B51FBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A7689A9DB454A9C984A4D12 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -I/usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		18906FCB0D4E4F1F8A89C80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world/build";
+			};
+			name = Debug;
+		};
+		27440A443FC0429493A38ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world/build";
+			};
+			name = Release;
+		};
+		2AB560D8EBA341DD8EB685F4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		35EC014870EA437E89D45759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3610515E76324D849F318F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3F6028D2179B48EBB9F7C3F4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4FDC36C06E4E43F9A2ABA648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		545C6614E425413C88EAE96A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7D1048BD0C7F45EDAED25046 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8123B6B68ED24F4A85E61F17 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -I/usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8D8CE519FBDE44368110E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B22A1EEB1C1A44D18B5299AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BADF18AAC92C46CC97CC7BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -I/usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BD7541524254458CBC748851 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C8E561F52B8142D78699CDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -I/usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D7BE73380C4241AEAF02CB3E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world/build";
+			};
+			name = MinSizeRel;
+		};
+		DF177611CC6046E2A00A6725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E056FB17C4994A8B8C4F5BCC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F0DC22CF31964CFFA7B0396A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/hello-world";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D199B55CA4D4A5888545FCA /* Build configuration list for PBXAggregateTarget "test_hello-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDC36C06E4E43F9A2ABA648 /* Debug */,
+				B22A1EEB1C1A44D18B5299AA /* Release */,
+				7D1048BD0C7F45EDAED25046 /* MinSizeRel */,
+				F0DC22CF31964CFFA7B0396A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		742E3011BE664BB7A5C659EE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF177611CC6046E2A00A6725 /* Debug */,
+				3610515E76324D849F318F4E /* Release */,
+				2AB560D8EBA341DD8EB685F4 /* MinSizeRel */,
+				E056FB17C4994A8B8C4F5BCC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		97BECDE80C6B4EFCAA8C625C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8CE519FBDE44368110E16A /* Debug */,
+				35EC014870EA437E89D45759 /* Release */,
+				BD7541524254458CBC748851 /* MinSizeRel */,
+				545C6614E425413C88EAE96A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0F998363B57424F82C66B70 /* Build configuration list for PBXProject "hello-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18906FCB0D4E4F1F8A89C80A /* Debug */,
+				27440A443FC0429493A38ECE /* Release */,
+				D7BE73380C4241AEAF02CB3E /* MinSizeRel */,
+				3F6028D2179B48EBB9F7C3F4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBAF1CF989D94EC78CF91279 /* Build configuration list for PBXNativeTarget "hello-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADF18AAC92C46CC97CC7BED /* Debug */,
+				C8E561F52B8142D78699CDFC /* Release */,
+				8123B6B68ED24F4A85E61F17 /* MinSizeRel */,
+				0A7689A9DB454A9C984A4D12 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EB3D3DBDA6445A789552467 /* Project object */;
+}

@@ -1,0 +1,4 @@
+/Users/puugru/Exercism/cpp/hello-world/CMakeFiles/test_hello-world.dir
+/Users/puugru/Exercism/cpp/hello-world/CMakeFiles/hello-world.dir
+/Users/puugru/Exercism/cpp/hello-world/CMakeFiles/ALL_BUILD.dir
+/Users/puugru/Exercism/cpp/hello-world/CMakeFiles/ZERO_CHECK.dir
