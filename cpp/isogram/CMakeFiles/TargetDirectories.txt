@@ -1,0 +1,4 @@
+/Users/puugru/Exercism/cpp/isogram/CMakeFiles/test_isogram.dir
+/Users/puugru/Exercism/cpp/isogram/CMakeFiles/isogram.dir
+/Users/puugru/Exercism/cpp/isogram/CMakeFiles/ALL_BUILD.dir
+/Users/puugru/Exercism/cpp/isogram/CMakeFiles/ZERO_CHECK.dir
