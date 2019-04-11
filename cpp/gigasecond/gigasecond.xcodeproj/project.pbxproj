@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		856A46A061BB4788AD5012B1 /* test_gigasecond */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4548D07B00544D6697F8694B /* Build configuration list for PBXAggregateTarget "test_gigasecond" */;
+			buildPhases = (
+				53D00053AEA44A3FBFA1B4B7 /* CMake Rules */,
+			);
+			dependencies = (
+				405A123F37EA4E468E2AAC15 /* PBXTargetDependency */,
+				44F21B293A0A490AAB24B649 /* PBXTargetDependency */,
+			);
+			name = test_gigasecond;
+			productName = test_gigasecond;
+		};
+		DEE9CFD239D042D1A69FC7CF /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C8549B54F61248C5A85B40D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				93D9416EA34A4BBCB6C67D46 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E2C3F480EFE346748EFCBA54 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C6905A86B38E4DF683A81C3C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F77CD95AF832423D86B95410 /* CMake Rules */,
+			);
+			dependencies = (
+				E6830872432C4A4FBE39C2A1 /* PBXTargetDependency */,
+				65853512C8824549B2B1F2FC /* PBXTargetDependency */,
+				7209EAFC185845EC897F3FEE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0D2DD1DDE64C4927B3567FC2 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond.h */ = {isa = PBXBuildFile; fileRef = 7BF48BF7F0334A92B192C361 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond.h */; };
+		BDD22B1B083340D58D427755 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond.cpp */ = {isa = PBXBuildFile; fileRef = 3CB5E289601F443092D5CEC1 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond.cpp */; };
+		CF647773A1CC43A698932655 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond_test.cpp */ = {isa = PBXBuildFile; fileRef = 778636D1F848442BBB8F0892 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond_test.cpp */; };
+		E582DA3F57EF4A06B7CC7103 /* /Users/puugru/Exercism/cpp/gigasecond/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 400E8683EFE94F7ABB5A66DE /* /Users/puugru/Exercism/cpp/gigasecond/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4BAF68EB739141D780051CFE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A2703491069946DBACFF4D85 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AF34CBEC8FBB4A48BA1A836C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C06021AA92E44E8FA1BD1A7F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1CDD2004AD7C48C4BF6344EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A612218B3944233BF0321E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE9CFD239D042D1A69FC7CF;
+			remoteInfo = ZERO_CHECK;
+		};
+		2B154BDA4D8D4DF29C379853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A612218B3944233BF0321E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE9CFD239D042D1A69FC7CF;
+			remoteInfo = ZERO_CHECK;
+		};
+		33FDA787B7A94DECA372BA0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A612218B3944233BF0321E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 856A46A061BB4788AD5012B1;
+			remoteInfo = test_gigasecond;
+		};
+		3BF07844178348D2A1C6ED10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A612218B3944233BF0321E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE9CFD239D042D1A69FC7CF;
+			remoteInfo = ZERO_CHECK;
+		};
+		6D2AC042C7D74F08B2E6F279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A612218B3944233BF0321E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDA458F390E461CAD874A7D;
+			remoteInfo = gigasecond;
+		};
+		7C20F1B3A80B43DDA88A3682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A612218B3944233BF0321E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDA458F390E461CAD874A7D;
+			remoteInfo = gigasecond;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB5E289601F443092D5CEC1 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gigasecond.cpp; path = gigasecond.cpp; sourceTree = SOURCE_ROOT; };
+		400E8683EFE94F7ABB5A66DE /* /Users/puugru/Exercism/cpp/gigasecond/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		778636D1F848442BBB8F0892 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gigasecond_test.cpp; path = gigasecond_test.cpp; sourceTree = SOURCE_ROOT; };
+		7BF48BF7F0334A92B192C361 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gigasecond.h; path = gigasecond.h; sourceTree = SOURCE_ROOT; };
+		7CC8FAEE480244B39D74C727 /* gigasecond */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = gigasecond; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A321C283854F33BDFF0F30 /* /Users/puugru/Exercism/cpp/gigasecond/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D0DA145489C242068C9373DD /* /Users/puugru/Exercism/cpp/gigasecond/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1BF6E5C720384D968C102CB0 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				87AF90B77CEF422F99BCE541 /* CMake Rules */,
+				94A321C283854F33BDFF0F30 /* /Users/puugru/Exercism/cpp/gigasecond/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		213FC5A6616140919B181C8C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5E289601F443092D5CEC1 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond.cpp */,
+				778636D1F848442BBB8F0892 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5246CC29BCED4FA489F6CCC8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BF48BF7F0334A92B192C361 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6C9B771FD2B34C5BAE6F3A89 = {
+			isa = PBXGroup;
+			children = (
+				E3C297BB440A44B2A4CF1C4E /* test_gigasecond */,
+				E981F98D47974637AE90B7EB /* gigasecond */,
+				1BF6E5C720384D968C102CB0 /* ALL_BUILD */,
+				7AAB2C3D283942D7B0058C51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AAB2C3D283942D7B0058C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC8FAEE480244B39D74C727 /* gigasecond */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87AF90B77CEF422F99BCE541 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E3C297BB440A44B2A4CF1C4E /* test_gigasecond */ = {
+			isa = PBXGroup;
+			children = (
+				F6766649A35145AD9A507BEB /* CMake Rules */,
+				D0DA145489C242068C9373DD /* /Users/puugru/Exercism/cpp/gigasecond/CMakeLists.txt */,
+			);
+			name = test_gigasecond;
+			sourceTree = "<group>";
+		};
+		E981F98D47974637AE90B7EB /* gigasecond */ = {
+			isa = PBXGroup;
+			children = (
+				213FC5A6616140919B181C8C /* Source Files */,
+				5246CC29BCED4FA489F6CCC8 /* Header Files */,
+				400E8683EFE94F7ABB5A66DE /* /Users/puugru/Exercism/cpp/gigasecond/CMakeLists.txt */,
+			);
+			name = gigasecond;
+			sourceTree = "<group>";
+		};
+		F6766649A35145AD9A507BEB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCDA458F390E461CAD874A7D /* gigasecond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B721AB8DCE1841DA86D78A85 /* Build configuration list for PBXNativeTarget "gigasecond" */;
+			buildPhases = (
+				6986C837B37544A68BBC5ABF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EC75F7780624E2E87401AF5 /* PBXTargetDependency */,
+			);
+			name = gigasecond;
+			productName = gigasecond;
+			productReference = 7CC8FAEE480244B39D74C727 /* gigasecond */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A612218B3944233BF0321E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0800;
+			};
+			buildConfigurationList = 76A8891D793A4CCCA3923795 /* Build configuration list for PBXProject "gigasecond" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A2703491069946DBACFF4D85 /* Debug */,
+				4BAF68EB739141D780051CFE /* Release */,
+				C06021AA92E44E8FA1BD1A7F /* MinSizeRel */,
+				AF34CBEC8FBB4A48BA1A836C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6C9B771FD2B34C5BAE6F3A89;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				E2C3F480EFE346748EFCBA54 /* ALL_BUILD */,
+				DEE9CFD239D042D1A69FC7CF /* ZERO_CHECK */,
+				DCDA458F390E461CAD874A7D /* gigasecond */,
+				856A46A061BB4788AD5012B1 /* test_gigasecond */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25BF68750E654A5BB7C62449 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		53D00053AEA44A3FBFA1B4B7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/puugru/Exercism/cpp/gigasecond -f /Users/puugru/Exercism/cpp/gigasecond/CMakeScripts/test_gigasecond_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7F9B2F994F8944ACA7B08E86 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93D9416EA34A4BBCB6C67D46 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/puugru/Exercism/cpp/gigasecond -f /Users/puugru/Exercism/cpp/gigasecond/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		F77CD95AF832423D86B95410 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/puugru/Exercism/cpp/gigasecond -f /Users/puugru/Exercism/cpp/gigasecond/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FFAC9BEFECFF433B8790E918 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6986C837B37544A68BBC5ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD22B1B083340D58D427755 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond.cpp */,
+				CF647773A1CC43A698932655 /* /Users/puugru/Exercism/cpp/gigasecond/gigasecond_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EC75F7780624E2E87401AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE9CFD239D042D1A69FC7CF /* ZERO_CHECK */;
+			targetProxy = 1CDD2004AD7C48C4BF6344EC /* PBXContainerItemProxy */;
+		};
+		405A123F37EA4E468E2AAC15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDA458F390E461CAD874A7D /* gigasecond */;
+			targetProxy = 7C20F1B3A80B43DDA88A3682 /* PBXContainerItemProxy */;
+		};
+		44F21B293A0A490AAB24B649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE9CFD239D042D1A69FC7CF /* ZERO_CHECK */;
+			targetProxy = 3BF07844178348D2A1C6ED10 /* PBXContainerItemProxy */;
+		};
+		65853512C8824549B2B1F2FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDA458F390E461CAD874A7D /* gigasecond */;
+			targetProxy = 6D2AC042C7D74F08B2E6F279 /* PBXContainerItemProxy */;
+		};
+		7209EAFC185845EC897F3FEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE9CFD239D042D1A69FC7CF /* ZERO_CHECK */;
+			targetProxy = 2B154BDA4D8D4DF29C379853 /* PBXContainerItemProxy */;
+		};
+		E6830872432C4A4FBE39C2A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 856A46A061BB4788AD5012B1 /* test_gigasecond */;
+			targetProxy = 33FDA787B7A94DECA372BA0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F3A30D393914BA989ED046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++11' -isystem /usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gigasecond;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		264BFE354B43477A90C000F9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4133ADF17369413AA5294348 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		449D0E1B559345E09BB90343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4534B434980540E3843ABB38 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11' -isystem /usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gigasecond;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		62960ECC512E4321B21A268D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6C1C35DDF3164CA19CDC8D30 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond/build;
+			};
+			name = RelWithDebInfo;
+		};
+		77DBD5F1296C4FCABC7C094E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond/build;
+			};
+			name = Release;
+		};
+		7905563A0CEF46B0BA9D4DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_gigasecond;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7D76219DD63E421D9BCBA4A1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11' -isystem /usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gigasecond;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		81C25E4277A445F4B42823ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_gigasecond;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8F4E1F126B834128B2C5149A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond/build;
+			};
+			name = MinSizeRel;
+		};
+		93752D024FE94DC99E1037D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		97363450016841418D1BD8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11' -isystem /usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gigasecond;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9F691D74D8D24913AF36BB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A8A19D154B814631BAA03FE0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C8076F0D07254C1780316C86 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_gigasecond;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D770FD4E4D6C4D63A98998D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond/build;
+			};
+			name = Debug;
+		};
+		EAD8745AE2BD4C5BA286E1ED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_gigasecond;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F94060738C9E4CDAB024C983 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/puugru/Exercism/cpp/gigasecond;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4548D07B00544D6697F8694B /* Build configuration list for PBXAggregateTarget "test_gigasecond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7905563A0CEF46B0BA9D4DB1 /* Debug */,
+				81C25E4277A445F4B42823ED /* Release */,
+				EAD8745AE2BD4C5BA286E1ED /* MinSizeRel */,
+				C8076F0D07254C1780316C86 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		76A8891D793A4CCCA3923795 /* Build configuration list for PBXProject "gigasecond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D770FD4E4D6C4D63A98998D2 /* Debug */,
+				77DBD5F1296C4FCABC7C094E /* Release */,
+				8F4E1F126B834128B2C5149A /* MinSizeRel */,
+				6C1C35DDF3164CA19CDC8D30 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B721AB8DCE1841DA86D78A85 /* Build configuration list for PBXNativeTarget "gigasecond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3A30D393914BA989ED046C /* Debug */,
+				97363450016841418D1BD8E3 /* Release */,
+				7D76219DD63E421D9BCBA4A1 /* MinSizeRel */,
+				4534B434980540E3843ABB38 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C6905A86B38E4DF683A81C3C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62960ECC512E4321B21A268D /* Debug */,
+				93752D024FE94DC99E1037D2 /* Release */,
+				F94060738C9E4CDAB024C983 /* MinSizeRel */,
+				4133ADF17369413AA5294348 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8549B54F61248C5A85B40D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449D0E1B559345E09BB90343 /* Debug */,
+				9F691D74D8D24913AF36BB75 /* Release */,
+				A8A19D154B814631BAA03FE0 /* MinSizeRel */,
+				264BFE354B43477A90C000F9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A612218B3944233BF0321E1 /* Project object */;
+}

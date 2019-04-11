@@ -1,0 +1,4 @@
+/Users/puugru/Exercism/cpp/gigasecond/CMakeFiles/test_gigasecond.dir
+/Users/puugru/Exercism/cpp/gigasecond/CMakeFiles/gigasecond.dir
+/Users/puugru/Exercism/cpp/gigasecond/CMakeFiles/ALL_BUILD.dir
+/Users/puugru/Exercism/cpp/gigasecond/CMakeFiles/ZERO_CHECK.dir
