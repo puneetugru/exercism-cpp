@@ -1,0 +1,4 @@
+/Users/puugru/Exercism/cpp/nucleotide-count/CMakeFiles/test_nucleotide-count.dir
+/Users/puugru/Exercism/cpp/nucleotide-count/CMakeFiles/nucleotide-count.dir
+/Users/puugru/Exercism/cpp/nucleotide-count/CMakeFiles/ALL_BUILD.dir
+/Users/puugru/Exercism/cpp/nucleotide-count/CMakeFiles/ZERO_CHECK.dir

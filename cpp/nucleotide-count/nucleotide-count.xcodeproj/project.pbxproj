@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		29984DC74E9A431FA3966592 /* test_nucleotide-count */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ABACD6A718E647528EC958CF /* Build configuration list for PBXAggregateTarget "test_nucleotide-count" */;
+			buildPhases = (
+				67D849A21EAF41D8992126D3 /* CMake Rules */,
+			);
+			dependencies = (
+				8FD8D04A0CEE46C9B1D76CDF /* PBXTargetDependency */,
+				D7B82DD9A8D5439CA681AEDA /* PBXTargetDependency */,
+			);
+			name = "test_nucleotide-count";
+			productName = "test_nucleotide-count";
+		};
+		A1C58E6FCD784F4596776278 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B3623C0610FB4D87A93671B7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B1A020BA8C274995A89D6DD3 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		DE7EBA7FBD7142A4A3EBB53D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C619F15D7CF94E358C3E29B6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D46A8746ED65475FB9B527D7 /* CMake Rules */,
+			);
+			dependencies = (
+				451261C1610348CDA4103A73 /* PBXTargetDependency */,
+				B4FD87F33E2040AF9A169A2C /* PBXTargetDependency */,
+				BC9077152F3E427E92F27373 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		273EFD5639DD48CEBF72D8FF /* /Users/puugru/Exercism/cpp/nucleotide-count/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2FBA99DFBFEC4B948F0A53CC /* /Users/puugru/Exercism/cpp/nucleotide-count/CMakeLists.txt */; };
+		2F558DF843FA4A72B3952F8B /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count.h */ = {isa = PBXBuildFile; fileRef = EFEE82C9E6984C769497B5E5 /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count.h */; };
+		F20821DA906C4C24A1B3B144 /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count_test.cpp */ = {isa = PBXBuildFile; fileRef = 49D330EEEDCD4AE495836F2C /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count_test.cpp */; };
+		F4D5253C5CE54F59B127C7CF /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count.cpp */ = {isa = PBXBuildFile; fileRef = B5ABE6D2D39D459F8BFE2429 /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		299FD19C23ED4D3098494B61 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		3174C5ECFFF344F7B384B392 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		6261F97E3AE24ECBA378F79C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		AF55152D3ED443848E3D6882 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1882A0C8A7644B159A5EA2B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0892A52A6B24428B8DE87DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63833E89A0448478973C071;
+			remoteInfo = "nucleotide-count";
+		};
+		255B9D4BDE784D62BFD80D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0892A52A6B24428B8DE87DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63833E89A0448478973C071;
+			remoteInfo = "nucleotide-count";
+		};
+		6D8A5D51234A4ABB80F8FA1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0892A52A6B24428B8DE87DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29984DC74E9A431FA3966592;
+			remoteInfo = "test_nucleotide-count";
+		};
+		9250625EDFCC46F59F3C76F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0892A52A6B24428B8DE87DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C58E6FCD784F4596776278;
+			remoteInfo = ZERO_CHECK;
+		};
+		B21EB21319F74445A06A9A45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0892A52A6B24428B8DE87DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C58E6FCD784F4596776278;
+			remoteInfo = ZERO_CHECK;
+		};
+		B33866342CD3492C9487C648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0892A52A6B24428B8DE87DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C58E6FCD784F4596776278;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F303459A2B045DDAC9A2571 /* nucleotide-count */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "nucleotide-count"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA99DFBFEC4B948F0A53CC /* /Users/puugru/Exercism/cpp/nucleotide-count/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		49D330EEEDCD4AE495836F2C /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nucleotide_count_test.cpp; path = nucleotide_count_test.cpp; sourceTree = SOURCE_ROOT; };
+		B3C19C374EDA4D9480B30922 /* /Users/puugru/Exercism/cpp/nucleotide-count/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B5ABE6D2D39D459F8BFE2429 /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nucleotide_count.cpp; path = nucleotide_count.cpp; sourceTree = SOURCE_ROOT; };
+		EA7BDD2603114D69BFA78944 /* /Users/puugru/Exercism/cpp/nucleotide-count/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EFEE82C9E6984C769497B5E5 /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nucleotide_count.h; path = nucleotide_count.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3FE7762E3EB64AB98754A480 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5ABE6D2D39D459F8BFE2429 /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count.cpp */,
+				49D330EEEDCD4AE495836F2C /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5CF245D1F16C49329007A78F /* nucleotide-count */ = {
+			isa = PBXGroup;
+			children = (
+				3FE7762E3EB64AB98754A480 /* Source Files */,
+				9160F1C6C4244CB6AA92DCAA /* Header Files */,
+				2FBA99DFBFEC4B948F0A53CC /* /Users/puugru/Exercism/cpp/nucleotide-count/CMakeLists.txt */,
+			);
+			name = "nucleotide-count";
+			sourceTree = "<group>";
+		};
+		7D6345F7B2FC43A0BEF09FEE /* test_nucleotide-count */ = {
+			isa = PBXGroup;
+			children = (
+				F8E00FB3DD5A4C928372D515 /* CMake Rules */,
+				B3C19C374EDA4D9480B30922 /* /Users/puugru/Exercism/cpp/nucleotide-count/CMakeLists.txt */,
+			);
+			name = "test_nucleotide-count";
+			sourceTree = "<group>";
+		};
+		9160F1C6C4244CB6AA92DCAA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE82C9E6984C769497B5E5 /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A70530C23AC341FDBFDEABE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F303459A2B045DDAC9A2571 /* nucleotide-count */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B162596BD80448BF8003B163 = {
+			isa = PBXGroup;
+			children = (
+				7D6345F7B2FC43A0BEF09FEE /* test_nucleotide-count */,
+				5CF245D1F16C49329007A78F /* nucleotide-count */,
+				C3A578A1912A49DA97182F2D /* ALL_BUILD */,
+				A70530C23AC341FDBFDEABE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B72CC87072824BB7A4C44287 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C3A578A1912A49DA97182F2D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B72CC87072824BB7A4C44287 /* CMake Rules */,
+				EA7BDD2603114D69BFA78944 /* /Users/puugru/Exercism/cpp/nucleotide-count/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F8E00FB3DD5A4C928372D515 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63833E89A0448478973C071 /* nucleotide-count */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D950B0D37CED4C6AB5703E3C /* Build configuration list for PBXNativeTarget "nucleotide-count" */;
+			buildPhases = (
+				2D91037BC11948B29AEBCC8B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF46358A88B44BF89C215AC /* PBXTargetDependency */,
+			);
+			name = "nucleotide-count";
+			productName = "nucleotide-count";
+			productReference = 1F303459A2B045DDAC9A2571 /* nucleotide-count */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0892A52A6B24428B8DE87DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0800;
+			};
+			buildConfigurationList = A5E4912A37FA4A05B80C9A55 /* Build configuration list for PBXProject "nucleotide-count" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				299FD19C23ED4D3098494B61 /* Debug */,
+				AF55152D3ED443848E3D6882 /* Release */,
+				6261F97E3AE24ECBA378F79C /* MinSizeRel */,
+				3174C5ECFFF344F7B384B392 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B162596BD80448BF8003B163;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				DE7EBA7FBD7142A4A3EBB53D /* ALL_BUILD */,
+				A1C58E6FCD784F4596776278 /* ZERO_CHECK */,
+				D63833E89A0448478973C071 /* nucleotide-count */,
+				29984DC74E9A431FA3966592 /* test_nucleotide-count */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67D849A21EAF41D8992126D3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/puugru/Exercism/cpp/nucleotide-count -f /Users/puugru/Exercism/cpp/nucleotide-count/CMakeScripts/test_nucleotide-count_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		81310166C120480092F46A76 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8B8BF9D907D74F03BAC49323 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8F7838059288404C84AA09E3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B1A020BA8C274995A89D6DD3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/puugru/Exercism/cpp/nucleotide-count -f /Users/puugru/Exercism/cpp/nucleotide-count/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D46A8746ED65475FB9B527D7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/puugru/Exercism/cpp/nucleotide-count -f /Users/puugru/Exercism/cpp/nucleotide-count/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D91037BC11948B29AEBCC8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5253C5CE54F59B127C7CF /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count.cpp */,
+				F20821DA906C4C24A1B3B144 /* /Users/puugru/Exercism/cpp/nucleotide-count/nucleotide_count_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DF46358A88B44BF89C215AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C58E6FCD784F4596776278 /* ZERO_CHECK */;
+			targetProxy = 9250625EDFCC46F59F3C76F3 /* PBXContainerItemProxy */;
+		};
+		451261C1610348CDA4103A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29984DC74E9A431FA3966592 /* test_nucleotide-count */;
+			targetProxy = 6D8A5D51234A4ABB80F8FA1C /* PBXContainerItemProxy */;
+		};
+		8FD8D04A0CEE46C9B1D76CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C58E6FCD784F4596776278 /* ZERO_CHECK */;
+			targetProxy = B33866342CD3492C9487C648 /* PBXContainerItemProxy */;
+		};
+		B4FD87F33E2040AF9A169A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C58E6FCD784F4596776278 /* ZERO_CHECK */;
+			targetProxy = B21EB21319F74445A06A9A45 /* PBXContainerItemProxy */;
+		};
+		BC9077152F3E427E92F27373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63833E89A0448478973C071 /* nucleotide-count */;
+			targetProxy = 1882A0C8A7644B159A5EA2B6 /* PBXContainerItemProxy */;
+		};
+		D7B82DD9A8D5439CA681AEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63833E89A0448478973C071 /* nucleotide-count */;
+			targetProxy = 255B9D4BDE784D62BFD80D5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2459CFA407F145F7992AE5F4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11' -isystem /usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2782216F0D0A48928E86D188 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3ABC7999BD684204819B453C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11' -isystem /usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		41B1563218BD4CB391245332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++11' -isystem /usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		42DA797D0B354E47B2907CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		52ADCDCEAABA4727AAF8D85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6C408AD51137426CA3E50534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11' -isystem /usr/local/include   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7021FC24A7AE4B20A67FC5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7AB2D6714AD2417B87A33D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		80B08D5508F840FC8ECF773C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A2AA6FCD6B244058A3F8512F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A6AB9C3F99804D5F95DF86FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B7AE75108BCD4C0D93D220EA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count/build";
+			};
+			name = MinSizeRel;
+		};
+		CDFBF9C080104970B11C429B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DE46BAB7580F436EA030E1F4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E193AAF389C34808AC26BB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count/build";
+			};
+			name = Debug;
+		};
+		E6AA90D8BFF24665ABC2460B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EC9CD9024037429B9DC47278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F773F8BC9DD7460EA559E490 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FFCF2F37B70D42488B1DB73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/puugru/Exercism/cpp/nucleotide-count/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5E4912A37FA4A05B80C9A55 /* Build configuration list for PBXProject "nucleotide-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E193AAF389C34808AC26BB88 /* Debug */,
+				FFCF2F37B70D42488B1DB73F /* Release */,
+				B7AE75108BCD4C0D93D220EA /* MinSizeRel */,
+				A6AB9C3F99804D5F95DF86FD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ABACD6A718E647528EC958CF /* Build configuration list for PBXAggregateTarget "test_nucleotide-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DA797D0B354E47B2907CB6 /* Debug */,
+				7021FC24A7AE4B20A67FC5F1 /* Release */,
+				CDFBF9C080104970B11C429B /* MinSizeRel */,
+				80B08D5508F840FC8ECF773C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3623C0610FB4D87A93671B7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ADCDCEAABA4727AAF8D85E /* Debug */,
+				7AB2D6714AD2417B87A33D07 /* Release */,
+				DE46BAB7580F436EA030E1F4 /* MinSizeRel */,
+				2782216F0D0A48928E86D188 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C619F15D7CF94E358C3E29B6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9CD9024037429B9DC47278 /* Debug */,
+				E6AA90D8BFF24665ABC2460B /* Release */,
+				A2AA6FCD6B244058A3F8512F /* MinSizeRel */,
+				F773F8BC9DD7460EA559E490 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D950B0D37CED4C6AB5703E3C /* Build configuration list for PBXNativeTarget "nucleotide-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B1563218BD4CB391245332 /* Debug */,
+				6C408AD51137426CA3E50534 /* Release */,
+				3ABC7999BD684204819B453C /* MinSizeRel */,
+				2459CFA407F145F7992AE5F4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0892A52A6B24428B8DE87DCE /* Project object */;
+}
