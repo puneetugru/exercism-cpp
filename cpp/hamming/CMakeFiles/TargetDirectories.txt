@@ -1,0 +1,4 @@
+/Users/puugru/Exercism/cpp/hamming/CMakeFiles/test_hamming.dir
+/Users/puugru/Exercism/cpp/hamming/CMakeFiles/hamming.dir
+/Users/puugru/Exercism/cpp/hamming/CMakeFiles/ALL_BUILD.dir
+/Users/puugru/Exercism/cpp/hamming/CMakeFiles/ZERO_CHECK.dir
