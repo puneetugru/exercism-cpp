@@ -1,0 +1,4 @@
+/Users/puugru/Exercism/cpp/difference-of-squares/CMakeFiles/test_difference-of-squares.dir
+/Users/puugru/Exercism/cpp/difference-of-squares/CMakeFiles/difference-of-squares.dir
+/Users/puugru/Exercism/cpp/difference-of-squares/CMakeFiles/ALL_BUILD.dir
+/Users/puugru/Exercism/cpp/difference-of-squares/CMakeFiles/ZERO_CHECK.dir
