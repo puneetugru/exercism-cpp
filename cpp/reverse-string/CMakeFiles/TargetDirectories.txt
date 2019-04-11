@@ -1,0 +1,4 @@
+/Users/puugru/Exercism/cpp/reverse-string/CMakeFiles/test_reverse-string.dir
+/Users/puugru/Exercism/cpp/reverse-string/CMakeFiles/reverse-string.dir
+/Users/puugru/Exercism/cpp/reverse-string/CMakeFiles/ALL_BUILD.dir
+/Users/puugru/Exercism/cpp/reverse-string/CMakeFiles/ZERO_CHECK.dir
