@@ -1,0 +1,4 @@
+/Users/puugru/Exercism/cpp/leap/CMakeFiles/test_leap.dir
+/Users/puugru/Exercism/cpp/leap/CMakeFiles/leap.dir
+/Users/puugru/Exercism/cpp/leap/CMakeFiles/ALL_BUILD.dir
+/Users/puugru/Exercism/cpp/leap/CMakeFiles/ZERO_CHECK.dir
